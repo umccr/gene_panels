@@ -115,7 +115,7 @@ CDK8	true	true	true	true	true	true	true	ONCO	ANY	ANY	ANY	ANY		false
 CDKN1A	true	true	true	true	true	true	true	TSG	ANY	ANY	ANY	ANY		false
 CDKN1B	true	true	true	true	true	true	true	TSG	ANY	ANY	ANY	ANY		false
 CDKN1C	true	true	true	true	true	true	true	TSG	ANY	ANY	ANY	ANY		false
-CDKN2A	true	true	true	true	true	true	true	TSG	ANY	ANY	ANY	ANY		false
+CDKN2A	true	true	true	true	true	true	true	TSG	ANY	ANY	ANY	ANY	ENST00000579755	false
 CDKN2B	true	true	true	true	true	true	true	TSG	ANY	ANY	ANY	ANY		false
 CDKN2C	true	true	true	true	true	true	true	TSG	ANY	ANY	ANY	ANY		false
 CDX2	true	true	true	true	true	true	true	ONCO	ANY	ANY	ANY	ANY		false

@@ -55,4 +55,13 @@ mkdir -p output/hmftools/
 mv $(find ${db}/output/ -type f) output/hmftools/
 
 rm -r ${db}/
+
+# Manually set the non-canonical CDKN2A ENST00000579755 transcript to be reported
+d=$(cat output/hmftools/DriverGenePanel.38.tsv)
+awk -F$'\t' <<< ${d} \
+  '
+    BEGIN { OFS="\t" };
+    /CDKN2A/ { $14 = "ENST00000579755" };
+    { print };
+  ' > output/hmftools/DriverGenePanel.38.tsv
 ```
